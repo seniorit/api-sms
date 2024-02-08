@@ -10,9 +10,11 @@
     "moduleResolution": "node",     
     "importHelpers": true,                                    
     "target": "es2021", 
-    "types": ["node"],                       
-                               
+    "types": ["node"],
+    "paths": {
+      "@handlersMs/": ["./src/*"]
+    },                                              
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/*.ts"],
   "exclude": ["**/*.spec.ts", "**/*test.ts", "node_modules"]
 }

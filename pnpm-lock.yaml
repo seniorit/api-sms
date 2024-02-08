@@ -11,6 +11,9 @@ dependencies:
   '@bot-whatsapp/provider-baileys':
     specifier: 0.1.3-alpha.9
     version: 0.1.3-alpha.9
+  dotenv:
+    specifier: ^16.4.1
+    version: 16.4.1
 
 devDependencies:
   tsm:
@@ -704,6 +707,11 @@ packages:
   /detect-libc@2.0.2:
     resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
     engines: {node: '>=8'}
+    dev: false
+
+  /dotenv@16.4.1:
+    resolution: {integrity: sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /duplexify@4.1.2:
