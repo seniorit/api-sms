@@ -6,7 +6,7 @@ import { flowBienvenida } from './controlFlow.js';
 
 const main = async () => {
   const provider = createProvider(BaileysProvider);
-  provider.initHttpServer(3002);
+  provider.initHttpServer(10000);
   normalMessage(provider);
   mediaMessage(provider);
 
