@@ -1,7 +1,8 @@
 # Logs
 logs
 *.log
-*._sessions
+*._sessions/
+bot_sessions/*.json
 *.qr.png
 *.log
 npm-debug.log*
@@ -131,4 +132,5 @@ out
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
 
