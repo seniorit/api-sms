@@ -3,18 +3,16 @@
     "allowJs": true,                                 
     "esModuleInterop": true,                            
     "allowSyntheticDefaultImports": true,
-    "outDir": "./dist",
+    "outDir": "./dist/src",
     "rootDir": "./src",
     "declaration": true,     
     "declarationMap": true,      
-    "moduleResolution": "node",     
+    "moduleResolution": "node10",     
     "importHelpers": true,                                    
     "target": "es2021", 
-    "types": ["node"],
-    "paths": {
-      "@handlersMs/": ["./src/*"]
-    },                                              
+    "types": ["node"],       
+    "strict": false                                      
   },
-  "include": ["src/*.ts", "src/trash/app.ts", "src/trash/messageHandler.ts"],
+  "include": ["src/*.ts", "src/app.ts"],
   "exclude": ["**/*.spec.ts", "**/*test.ts", "node_modules"]
 }
